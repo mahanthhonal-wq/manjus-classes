@@ -74,40 +74,6 @@ if (themeToggle) {
   });
 }
 
-const galleryImages = {
-  classroom: {
-    src: "assets/classroom-illustration.svg",
-    alt: "Illustration of an empty coaching classroom with desks and a learning board",
-    label: "01 / LEARNING SPACE",
-    title: "Focus starts here."
-  },
-  building: {
-    src: "assets/building-illustration.svg",
-    alt: "Illustration of a coaching centre exterior",
-    label: "02 / MYSURU CENTRE",
-    title: "Meet us on Ramavilas Road."
-  }
-};
-const galleryDialog = document.querySelector("#gallery-dialog");
-const dialogImage = document.querySelector("#dialog-image");
-
-document.querySelectorAll("[data-gallery]").forEach((button) => {
-  button.addEventListener("click", () => {
-    const image = galleryImages[button.dataset.gallery];
-    if (!image || !galleryDialog || typeof galleryDialog.showModal !== "function") return;
-    dialogImage.src = image.src;
-    dialogImage.alt = image.alt;
-    document.querySelector("#dialog-label").textContent = image.label;
-    document.querySelector("#dialog-title").textContent = image.title;
-    galleryDialog.showModal();
-  });
-});
-
-document.querySelector(".dialog-close")?.addEventListener("click", () => galleryDialog.close());
-galleryDialog?.addEventListener("click", (event) => {
-  if (event.target === galleryDialog) galleryDialog.close();
-});
-
 const header = document.querySelector(".site-header");
 const backToTop = document.querySelector(".back-to-top");
 const progressBar = document.querySelector("#scroll-progress-bar");

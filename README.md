@@ -11,7 +11,7 @@ This is a static site. The entry page is index.html; styles.css and script.js pr
 - Course cards can be filtered by pathway.
 - Mobile navigation opens and closes from the menu button.
 - The appearance control switches between light and dark palettes.
-- Campus illustrations open in an image preview dialog.
+- The campus section highlights the in-person centre and links to directions.
 - Scroll progress, reveal motion, and a back-to-top control respond to scrolling.
 - Reduced-motion preferences are respected.
 
@@ -21,9 +21,7 @@ The workflow in .github/workflows/deploy.yml deploys the root of the repository 
 
 ## Photos and branding
 
-The site uses custom, student-free SVG illustrations for the classroom and exterior, clearly labeled as illustrations. Replace assets/classroom-illustration.svg and assets/building-illustration.svg with approved photos when available, and remove the illustration labels in index.html.
-
-The palette follows the navy and gold colors visible in the institution listing. The small assets/mark.svg is a matching draft mark rather than a copy of the listing artwork.
+The campus image gallery is intentionally omitted until the institution provides approved classroom and building photos. The hero uses a typographic learning-path graphic rather than a campus image.
 
 ## Content source
 
