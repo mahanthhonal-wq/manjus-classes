@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 760" fill="none">
+  <defs>
+    <linearGradient id="wall" x1="82" y1="45" x2="875" y2="610" gradientUnits="userSpaceOnUse"><stop stop-color="#fff8e6"/><stop offset="1" stop-color="#f1e9d8"/></linearGradient>
+    <linearGradient id="floor" x1="500" y1="430" x2="500" y2="757" gradientUnits="userSpaceOnUse"><stop stop-color="#e6d1ad"/><stop offset="1" stop-color="#c5a982"/></linearGradient>
+    <linearGradient id="board" x1="560" y1="140" x2="832" y2="335" gradientUnits="userSpaceOnUse"><stop stop-color="#23235f"/><stop offset="1" stop-color="#0e1542"/></linearGradient>
+    <filter id="shadow" x="98" y="362" width="773" height="305" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feGaussianBlur stdDeviation="15"/></filter>
+  </defs>
+  <rect width="1000" height="760" rx="38" fill="#f4eee4"/>
+  <path d="M0 58Q0 0 58 0h884q58 0 58 58v480H0V58Z" fill="url(#wall)"/>
+  <path d="M0 538h1000v164q0 58-58 58H58q-58 0-58-58V538Z" fill="url(#floor)"/>
+  <path d="M0 536h1000" stroke="#d6c7ad" stroke-width="8"/>
+  <rect x="63" y="98" width="251" height="265" rx="7" fill="#dceaf1" stroke="#fff" stroke-width="14"/>
+  <path d="M188 103v253M70 228h237" stroke="#fff" stroke-width="13"/>
+  <path d="M79 117h102v102H79zM198 117h102v102H198zM79 238h102v111H79zM198 238h102v111H198z" fill="#d1e8f3"/>
+  <path d="m82 351 48-132 60 132M201 350l44-132 57 132" stroke="#c3dce8" stroke-width="5"/>
+  <rect x="408" y="91" width="465" height="270" rx="16" fill="#dbccb1"/>
+  <rect x="427" y="107" width="426" height="236" rx="10" fill="url(#board)"/>
+  <text x="463" y="163" fill="#F8C63C" font-family="Arial,sans-serif" font-size="19" font-weight="700" letter-spacing="4">YOUR NEXT CHAPTER</text>
+  <text x="463" y="224" fill="#fffaf0" font-family="Arial,sans-serif" font-size="40" font-weight="700">STARTS HERE</text>
+  <path d="M466 260h250" stroke="#f8c63c" stroke-width="4" stroke-linecap="round"/>
+  <text x="463" y="304" fill="#cbd2ee" font-family="Arial,sans-serif" font-size="16" letter-spacing="2">LEARN · PRACTISE · PROGRESS</text>
+  <circle cx="832" cy="375" r="23" fill="#f7bd22"/><path d="M832 354v-16m-7 38-13 10m33-10 13 10" stroke="#201d5d" stroke-width="5" stroke-linecap="round"/>
+  <ellipse cx="489" cy="637" rx="365" ry="29" fill="#553d29" opacity=".2" filter="url(#shadow)"/>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <path d="M197 464h219l34 29H166l31-29Z" fill="#e8b83c" stroke="#bb8724" stroke-width="7"/>
+    <path d="m191 492-16 128m223-128 15 128m-188-91h157" stroke="#342d5e" stroke-width="12"/>
+    <path d="M188 457h234" stroke="#fff2c7" stroke-width="8"/>
+    <path d="M527 429h232l38 30H491l36-30Z" fill="#f1c759" stroke="#bd8c30" stroke-width="7"/>
+    <path d="m516 459-17 160m240-160 14 160m-194-90h158" stroke="#342d5e" stroke-width="12"/>
+    <path d="M517 422h248" stroke="#fff5d9" stroke-width="8"/>
+    <path d="M354 548h205l32 28H325l29-28Z" fill="#e8b83c" stroke="#bb8724" stroke-width="7"/>
+    <path d="m347 576-13 103m205-103 12 103m-171-64h135" stroke="#342d5e" stroke-width="11"/>
+    <path d="M353 541h205" stroke="#fff2c7" stroke-width="8"/>
+  </g>
+  <g fill="#fff9e8" opacity=".8"><path d="m132 404 11-30 11 30-11 30z"/><circle cx="366" cy="173" r="7"/><path d="m895 105 7-20 7 20 20 7-20 7-7 20-7-20-20-7z"/></g>
+  <path d="M92 691h140" stroke="#806643" stroke-width="4" stroke-linecap="round" opacity=".3"/><path d="M802 688h98" stroke="#806643" stroke-width="4" stroke-linecap="round" opacity=".3"/>
+</svg>
